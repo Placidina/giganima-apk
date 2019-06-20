@@ -27,3 +27,7 @@ debug: build
 
 decompile: clean
 	apktool d $(APK) -o src
+
+install: build
+	adb shell settings put global package_verifier_enable 0
+	adb install -r $(DIST)/signed/$(NAME).apk
