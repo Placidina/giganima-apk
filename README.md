@@ -22,3 +22,7 @@ Reverse engineering to remove ads.
 * `make decompile` - Execute `clean` and decompile apk
 * `make install` - Install apk into your device
   * Required mode developer enabled in your device and enabled `USB debugging`
+
+## Troubleshooting
+
+* [Installing ARM Android apps on Genymotion devices](https://pentester.land/tips-n-tricks/2018/10/19/installing-arm-android-apps-on-genymotion-devices.html)
