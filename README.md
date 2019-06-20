@@ -20,5 +20,5 @@ Reverse engineering to remove ads.
 * `make debug` - Build decompiled apk and send to emulator
 * `make clean` - Remove directory `src` and `build`
 * `make decompile` - Execute `clean` and decompile apk
-* `make install` - Install apk in your device
+* `make install` - Install apk into your device
   * Required mode developer enabled in your device and enabled `USB debugging`
