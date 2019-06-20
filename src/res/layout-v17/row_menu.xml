@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ui_button_gray" android:layout_width="fill_parent" android:layout_height="@dimen/height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/menu_image" android:focusableInTouchMode="false" android:layout_width="@dimen/dim_20" android:layout_height="@dimen/dim_20" android:layout_marginLeft="@dimen/dim_10" android:src="@drawable/ico_list" android:contentDescription="@string/about" android:layout_marginStart="@dimen/dim_10" />
+    <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/info_categoria" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="@dimen/dim_10" android:text="@string/titulo_ordem" android:layout_marginStart="@dimen/dim_10" />
+</LinearLayout>

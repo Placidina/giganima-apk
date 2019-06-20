@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <screenName name=".MyActivity">MyActivity</screenName>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <bool name="ga_dryRun">false</bool>
+    <string name="ga_logLevel">verbose</string>
+    <string name="ga_trackingId">UA-60084677-1</string>
+</resources>

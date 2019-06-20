@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_icons">
+        <item>all</item>
+        <item>downloading</item>
+        <item>done</item>
+        <item>null</item>
+        <item>null</item>
+        <item>settings</item>
+    </string-array>
+    <string-array name="drawer_items">
+        <item>Todos</item>
+        <item>Baixando</item>
+        <item>Completos</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Configurações</item>
+    </string-array>
+</resources>

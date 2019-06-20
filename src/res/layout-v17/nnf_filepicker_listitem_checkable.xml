@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/nnf_item_container" android:background="?selectableItemBackground" android:focusable="true" android:nextFocusLeft="@id/nnf_button_cancel" android:nextFocusRight="@id/checkbox" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/item_icon" android:visibility="visible" android:layout_width="?android:listPreferredItemHeight" android:layout_height="?android:listPreferredItemHeight" android:scaleType="center" android:adjustViewBounds="true" android:tint="?attr/nnf_dir_icon_color" app:srcCompat="@drawable/nnf_ic_folder_black_48dp" />
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/text1" android:padding="8dp" android:layout_width="0dp" android:layout_height="fill_parent" android:text="@string/nnf_name" android:maxLines="1" android:singleLine="true" android:layout_weight="1" style="?android:textAppearanceLarge" />
+    <CheckBox android:id="@id/checkbox" android:paddingRight="8dp" android:nextFocusLeft="@id/nnf_item_container" android:nextFocusRight="@id/nnf_button_ok" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="8dp" />
+</LinearLayout>

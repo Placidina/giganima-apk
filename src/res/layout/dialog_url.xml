@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <View android:background="@drawable/action_shadow" android:layout_width="fill_parent" android:layout_height="4dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="9dp" android:layout_marginRight="24dp" android:layout_marginBottom="24dp">
+        <TextView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/msg_url" />
+        <EditText android:id="@id/url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_marginBottom="24dp">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/msg_name" />
+        <EditText android:id="@id/file_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <Button android:textColor="?attr/colorPrimary" android:id="@id/fetch_name" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_fetch_filename" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_marginBottom="24dp">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/msg_threads" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/threads_count" android:layout_width="20dp" android:layout_height="wrap_content" android:text="0" />
+            <SeekBar android:id="@id/threads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="3" android:progress="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

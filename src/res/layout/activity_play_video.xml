@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VideoView android:layout_gravity="center" android:id="@id/video_view" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:id="@id/content_button" android:background="@null" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/play_video_progress_bar" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+</merge>

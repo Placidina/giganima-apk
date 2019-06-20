@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/dark_purple" android:layout_width="fill_parent" android:layout_height="@dimen/height" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <ImageButton android:id="@id/btn_list" android:background="@drawable/ui_button_purple" android:layout_width="@dimen/width" android:layout_height="fill_parent" android:src="@drawable/ico_list" android:contentDescription="@string/titulo_ordem" />
+        <TextView android:textSize="@dimen/tex_size_xxlarge" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_title" android:tag="bold" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/latest" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/Reloading" android:background="@drawable/ui_button_purple" android:layout_width="@dimen/width" android:layout_height="fill_parent" android:src="@drawable/ico_reload" />
+    </LinearLayout>
+</RelativeLayout>

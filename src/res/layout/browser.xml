@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressBar4" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+    </FrameLayout>
+    <include android:visibility="gone" layout="@layout/toolbar" />
+    <WebView android:id="@id/web" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+    <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="4dp" android:max="100" android:progress="0" android:progressDrawable="@drawable/progress" android:layout_below="@id/toolbar" style="?android:attr/progressBarStyleHorizontal" />
+    <View android:background="@drawable/action_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4dp" android:layout_below="@id/toolbar" />
+</RelativeLayout>

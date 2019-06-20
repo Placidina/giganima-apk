@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/dark_purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/tex_size_xxlarge" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/suporte" android:background="@drawable/ui_button_green" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_margin="20.0dip" android:text="Suporte" />
+    <Button android:textSize="@dimen/tex_size_xxlarge" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/avaliar" android:background="@drawable/ui_button_green" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_margin="20.0dip" android:text="Avaliar" />
+    <Button android:textSize="@dimen/tex_size_xxlarge" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/limpar" android:background="@drawable/ui_button_green" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_margin="20.0dip" android:text="Resetar Para Padrão" android:layout_weight="0.0" />
+</LinearLayout>

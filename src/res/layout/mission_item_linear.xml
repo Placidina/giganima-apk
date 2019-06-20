@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_bkg" android:background="@color/bluegray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2dp">
+        <ImageView android:gravity="center" android:id="@id/item_icon" android:padding="15dp" android:layout_width="72dp" android:layout_height="72dp" android:scaleType="fitXY" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/item_name_and_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/item_status" android:layout_toRightOf="@id/item_icon" android:layout_centerVertical="true">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/item_name" android:padding="6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="XXX.xx" android:singleLine="true" />
+            <TextView android:textSize="12sp" android:textColor="@color/white" android:id="@id/item_size" android:padding="6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100.00MB" android:singleLine="true" android:layout_below="@id/item_name" />
+        </LinearLayout>
+        <TextView android:textSize="20sp" android:textColor="@color/white" android:id="@id/item_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:text="0%" android:singleLine="true" android:layout_toLeftOf="@id/item_more" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/item_more" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginRight="4dp" android:src="@drawable/ic_menu_more" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?attr/buttonBarButtonStyle" />
+    </RelativeLayout>
+</RelativeLayout>

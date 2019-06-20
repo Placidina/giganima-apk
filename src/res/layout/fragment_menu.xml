@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/layoutred" android:layout_width="fill_parent" android:layout_height="@dimen/height">
+        <EditText android:id="@id/searchQuery" android:background="@color/gray_215" android:paddingLeft="@dimen/dim_5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:hint="@string/txt_some_header" android:maxLines="1" android:layout_weight="2.8" android:inputType="text" android:imeOptions="actionGo" android:imeActionLabel="@string/pesquisar" />
+        <ImageButton android:id="@id/btn_search" android:background="@drawable/ui_button_green_two" android:layout_width="@dimen/height" android:layout_height="fill_parent" android:src="@drawable/ico_search" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/layoutdown" android:background="@drawable/ui_button_gray_two" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/height"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <ImageView android:id="@id/menu_image" android:focusableInTouchMode="false" android:layout_width="@dimen/dim_20" android:layout_height="@dimen/dim_20" android:layout_marginLeft="@dimen/dim_10" android:src="@drawable/downloading" android:contentDescription="@string/about" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/info_categoria" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="@dimen/dim_10" android:text="@string/baixar" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@id/lst_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="#80000000" android:dividerHeight="0dp" style="@style/Theme.App.BlueGray" />
+</LinearLayout>

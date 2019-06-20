@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/item_bkg" android:background="@color/bluegray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2dp">
+        <RelativeLayout android:id="@id/item_title_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_alignParentTop="true">
+            <TextView android:textSize="20sp" android:textColor="@color/white" android:id="@id/item_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="0%" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/item_more" android:layout_width="49dp" android:layout_height="49dp" android:layout_marginRight="1dp" android:src="@drawable/ic_menu_more" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?attr/buttonBarButtonStyle" />
+        </RelativeLayout>
+        <ImageView android:gravity="center" android:id="@id/item_icon" android:padding="10dp" android:layout_width="72dp" android:layout_height="72dp" android:scaleType="fitXY" android:layout_below="@id/item_title_line" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/item_name" android:padding="6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="XXX.xx" android:singleLine="true" android:layout_below="@id/item_icon" />
+        <TextView android:textSize="12sp" android:textColor="@color/white" android:id="@id/item_size" android:padding="6dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100.00MB" android:singleLine="true" android:layout_below="@id/item_name" />
+    </RelativeLayout>
+</RelativeLayout>

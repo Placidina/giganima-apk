@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/detail_info" android:background="?attr/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16sp" android:textColor="@color/white" android:visibility="gone" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/url" />
+                    <TextView android:textSize="16sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/info_url" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16sp" android:textColor="@color/white" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/path" />
+                    <TextView android:textSize="16sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/info_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16sp" android:textColor="@color/white" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/create_date" />
+                    <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/info_create" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16sp" android:textColor="@color/white" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/total_size" />
+                    <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/info_total" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16sp" android:textColor="@color/white" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/downloaded_size" />
+                    <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/info_done" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16sp" android:textColor="@color/white" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/speed" />
+                    <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/info_speed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16sp" android:textColor="@color/white" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/blocks_count" />
+                    <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/info_blocks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16sp" android:textColor="@color/white" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/threads_count" />
+                    <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/info_threads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@drawable/action_shadow" android:layout_width="fill_parent" android:layout_height="4dp" android:layout_below="@id/detail_info" />
+            <LinearLayout android:padding="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/detail_info">
+                <us.shandian.giga.ui.common.BlockGraphView android:id="@id/info_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

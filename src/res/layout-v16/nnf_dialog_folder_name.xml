@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="center_vertical" android:id="@id/edit_text" android:padding="4dp" android:layout_width="fill_parent" android:layout_height="48dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:hint="@string/nnf_name" android:maxLines="1" android:singleLine="true" android:inputType="textAutoComplete|textAutoCorrect" android:imeOptions="actionDone" android:fontFamily="light" style="?android:textAppearanceMedium" />
+</FrameLayout>

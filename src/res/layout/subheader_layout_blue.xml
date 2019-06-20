@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/purple" android:layout_width="fill_parent" android:layout_height="@dimen/height" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/btnImg_Back" android:background="@drawable/ui_button_purple_two" android:layout_width="@dimen/width" android:layout_height="fill_parent" android:src="@drawable/ico_left" android:contentDescription="@string/desc" />
+        <TextView android:textSize="@dimen/tex_size_xxlarge" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_title" android:tag="bold" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/episodes" android:layout_weight="1.0" />
+        <ImageView android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/pesq" android:background="@drawable/ui_button_purple_two" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/width" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ico_search" />
+        <CheckBox android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/favoritar" android:layout_width="@dimen/width" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:button="@drawable/checkboxes" />
+    </LinearLayout>
+</RelativeLayout>

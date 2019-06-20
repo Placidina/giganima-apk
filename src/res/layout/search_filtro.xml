@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/orange_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/tex_size_xxlarge" android:textColor="@color/white" android:padding="@dimen/dim_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Digite o número do episódio:" />
+    <LinearLayout android:id="@id/layoutred" android:layout_width="fill_parent" android:layout_height="@dimen/height">
+        <EditText android:id="@id/searchQuery" android:background="@color/gray_215" android:paddingLeft="@dimen/dim_5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:hint="Ex: 225" android:maxLines="1" android:layout_weight="2.8" android:inputType="number" android:imeOptions="actionGo" android:imeActionLabel="@string/pesquisar" />
+        <ImageButton android:id="@id/btn_search" android:background="@drawable/ui_button_green_two" android:layout_width="@dimen/height" android:layout_height="fill_parent" android:src="@drawable/ico_search" android:layout_weight="1.0" android:contentDescription="@string/desc" />
+    </LinearLayout>
+</LinearLayout>
