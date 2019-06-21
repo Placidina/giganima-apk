@@ -7,7 +7,7 @@ Reverse engineering to remove ads.
 ## Requirements
 
 * [Android Emulator](https://www.genymotion.com/)
-  * _And create on device (obvious)_
+  * _And create device (obvious)_
 * [Android Tools](http://tools.android.com/)
   * _adb, fastboot and systrace_
 * [Apktool](https://ibotpeaches.github.io/Apktool/)
