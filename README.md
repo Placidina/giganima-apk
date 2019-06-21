@@ -25,7 +25,7 @@ Reverse engineering to remove ads.
 
 ## Download
 
-Just want apk without ads? [download apk ready](https://github.com/Placidina/giganima/releases)
+Just want apk without ads? [download apk ready](https://github.com/Placidina/giganima-apk/releases)
 
 ## Troubleshooting
 
