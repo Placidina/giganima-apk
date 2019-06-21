@@ -1,4 +1,4 @@
-# Giganima
+# Giganima APK
 
 [![Giganima v3](https://img.shields.io/badge/Giganima-v3-green.svg)](https://play.google.com/store/apps/details?id=br.com.giganoapp.gaganima)
 
