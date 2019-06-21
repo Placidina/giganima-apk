@@ -110,18 +110,18 @@
 
 .method public final loadAd(Lcom/google/android/gms/ads/AdRequest;)V
     .locals 1
-    .annotation build Landroid/support/annotation/RequiresPermission;
-        value = "android.permission.INTERNET"
-    .end annotation
+    # .annotation build Landroid/support/annotation/RequiresPermission;
+    #     value = "android.permission.INTERNET"
+    # .end annotation
 
-    .line 9
-    iget-object v0, p0, Lcom/google/android/gms/ads/InterstitialAd;->zzvy:Lcom/google/android/gms/internal/ads/zzzb;
+    # .line 9
+    # iget-object v0, p0, Lcom/google/android/gms/ads/InterstitialAd;->zzvy:Lcom/google/android/gms/internal/ads/zzzb;
 
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdRequest;->zzaz()Lcom/google/android/gms/internal/ads/zzyx;
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdRequest;->zzaz()Lcom/google/android/gms/internal/ads/zzyx;
 
-    move-result-object p1
+    # move-result-object p1
 
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/zzzb;->zza(Lcom/google/android/gms/internal/ads/zzyx;)V
+    # invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/zzzb;->zza(Lcom/google/android/gms/internal/ads/zzyx;)V
 
     return-void
 .end method
